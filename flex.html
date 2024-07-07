@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newton School Layout</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.video-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.video-card {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    flex: 1;
+    max-width: 30%;
+    text-align: left;
+}
+
+.video-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.video-card p {
+    padding: 10px;
+    font-size: 1em;
+    color: #333;
+}
+</style>
+<body>
+    <div class="container">
+        <h1>Winning with Newton School</h1>
+        <p>Watch what our learners have to say</p>
+        <div class="video-section">
+            <div class="video-card">
+                <img src="https://cdn.prod.website-files.com/62e8d2ea218fb7676b6892a6/665423e70c61fa3aa7244877_Highcompressed_1633935556-p-500.jpg" alt="video">
+                <p>Prepare to be inspired as learners recount their journey to landing dream jobs at Indigo, powered by Newton School's innovative approach. Watch here!</p>
+            </div>
+            <div class="video-card">
+                <img src="https://cdn.prod.website-files.com/62e8d2ea218fb7676b6892a6/665423e7acc7d87dabd22359_Highcompressed_1615268220-p-500.jpg" alt="video">
+                <p>Aman was in for a surprise on his birthday. He landed his dream job on this special day, and his journey was nothing short of extraordinary. Watch here!</p>
+            </div>
+            <div class="video-card">
+                <img src="https://cdn.prod.website-files.com/62e8d2ea218fb7676b6892a6/665423e643ee04416e9d89dc_Highcompressed_906291358-p-500.jpg" alt="video">
+                <p>Explore Nikhil Choudhary's leap from IIT Guwahati research to Data Science, driven by its market potential. Watch here!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
